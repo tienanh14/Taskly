@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { supabaseAdmin } from '@/lib/supabase'
-import { uploadFileToDrive, parseFolderIds } from '@/lib/google-drive'
+import { uploadFile, parseFolderIds } from '@/lib/google-drive'
 
 export async function POST(
     req: NextRequest,
@@ -28,7 +28,7 @@ export async function POST(
     const { Readable } = await import('stream')
     const stream = Readable.from(Buffer.from(arrayBuffer))
 
-    const driveLink = await uploadFileToDrive(
+    const driveLink = await uploadFile(
         mediaFolderId ?? 'root',
         file.name,
         file.type,
