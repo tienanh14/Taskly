@@ -33,8 +33,8 @@ Taskly utilizes a serverless architecture on Vercel, leveraging Next.js API Rout
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/taskly-app.git](https://github.com/your-username/taskly-app.git)
-   cd taskly-app
+git clone [https://github.com/tienanh14/Taskly.git](https://github.com/tienanh14/Taskly.git)
+cd taskly-app
 Install dependencies:
 
 Bash
@@ -42,7 +42,7 @@ npm install
 Environment Variables:
 Create a .env.local file and add your Supabase credentials:
 
-Đoạn mã
+Code
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
 Run the development server:
