@@ -1,8 +1,7 @@
 Markdown
-# Taskly - Smart Task Management System
+# Taskly - Smart Task Management
 
-Taskly is a modern, high-performance task management application built with **Next.js 14**, **Supabase**, and **Tailwind CSS**. It’s designed to help users streamline their workflow through smart automation, real-time tracking, and a focus-driven UI.
-
+Taskly is a streamlined task management system designed to eliminate friction in productivity. By integrating deeply with Google Drive, Taskly automates the tedious parts of project organization, allowing you to focus on execution.
 
 
 ## 🚀 Key Features
@@ -11,6 +10,9 @@ Taskly is a modern, high-performance task management application built with **Ne
 - **Smart Task Automation**: Automated state transitions (Assigned -> Processing -> Done/Expired) based on real-time deadline monitoring.
 - **Focus Mode**: Dedicated "Block" mode for deep work with duration-based tracking.
 - **Project Hierarchy**: Organize work efficiently using a Space -> Project -> Task structure.
+- **Google Drive Integration**: Seamlessly connects tasks with cloud storage for automated resource management.
+- **Automated Documentation**: Automatically creates dedicated Google Drive folders and task-related documents upon task initiation.
+- **Cloud File Sync**: Direct file upload capability from the dashboard to specific Google Drive project folders.
 - **Responsive Design**: Fully optimized for both Light and Dark modes with a sleek, glassmorphism UI.
 - **Web Push Notifications**: (In Development) Real-time browser alerts to ensure you never miss a deadline.
 
@@ -27,31 +29,10 @@ Taskly is a modern, high-performance task management application built with **Ne
 
 Taskly utilizes a serverless architecture on Vercel, leveraging Next.js API Routes for backend logic and Supabase for real-time data persistence.
 
-
-
-## ⚙️ Installation & Setup
-
-1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/tienanh14/Taskly.git](https://github.com/tienanh14/Taskly.git)
-   cd taskly-app
-
-Install dependencies:
-
-```Bash
-npm install
-Environment Variables:
-Create a .env.local file and add your Supabase credentials:
-
-Code
-NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-Run the development server:
-
-Bash
-npm run dev
-
-📈 Future Roadmap
+## 📈 Future Roadmap
 [ ] Integrated Web Push Notifications using Service Workers.
+
 [ ] Detailed productivity analytics and charts.
+
 [ ] Team collaboration and shared Spaces.
+
