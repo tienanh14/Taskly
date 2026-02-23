@@ -292,8 +292,9 @@ export function TaskTable({ tasks, onStart, onStop, onResolve, onUpload, onEdit 
 
     return (
         <div className="space-y-10 animate-fade-in py-4 pb-20">
-            {renderSection('To Do', todo.length, todo, 'todo')}
             {renderSection('In Progress', processing.length, processing, 'processing')}
+
+            {renderSection('To Do', todo.length, todo, 'todo')}
             {renderSection('Completed', done.length, done, 'done')}
         </div>
     )
