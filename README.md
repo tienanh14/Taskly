@@ -50,6 +50,7 @@ Run the development server:
 
 Bash
 npm run dev
+
 📈 Future Roadmap
 [ ] Integrated Web Push Notifications using Service Workers.
 [ ] Detailed productivity analytics and charts.
