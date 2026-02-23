@@ -1,7 +1,7 @@
 Markdown
-# Taskly - Smart Task Management
+# Taskly - Smart & Simple Task Management
 
-Taskly is a streamlined task management system designed to eliminate friction in productivity. By integrating deeply with Google Drive, Taskly automates the tedious parts of project organization, allowing you to focus on execution.
+Taskly is a streamlined task management system designed to eliminate friction. By integrating deeply with Google Drive, Taskly automates the tedious parts of project organization, allowing you to focus on execution.
 
 
 ## 🚀 Key Features
