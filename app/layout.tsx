@@ -8,7 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Taskly - Modern Task Management",
+  title: "Taskly - Smart & Simple Task Management",
   description: "Focus Dashboard for Deep Work",
 };
 
